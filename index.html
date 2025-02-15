@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weather</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fleur+De+Leah&family=IM+Fell+English+SC&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+      </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="search-container">
+                    <input type="text" id="searchBox" value="" placeholder="search weather...">
+                    <div class="search">
+                        <img src="/weather_icons/search.png">
+                    </div>
+                </div>
+                <div class="weather-container">
+                    <img id="weather" src="/weather_icons/temperature/sunny.png">
+                    <p id="temperature">20°c</p>
+                    <img id="temperatureIcon" src="/weather_icons/temperature/thermometer.png">
+                </div>
+                <div class="name">
+                    <p id="inputName">india</p>
+                </div>
+                <div class="wind-container">
+                    <div class="wind">
+                        <img src="/weather_icons/wind/high-wind.png">
+                        <p id="windSpeed">8km/h</p>
+                    </div>
+                    <div class="wheels-container">
+                        <img src="/weather_icons/wind/electricity-big-wings.png">
+                        <img src="/weather_icons/wind/electricity-small-wings.png">
+                        <img src="/weather_icons/wind/electricity-body.png">
+                    </div>
+                </div>
+                <div class="humidity-container">
+                    <img src="/weather_icons/humidity.png">
+                    <p id="humidity">40%</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
